@@ -18,6 +18,7 @@ public class Main {
             case THURSDAY -> System.out.println("Chetver");
             case FRIDAY -> System.out.println("Pyatnica");
             case SATURDAY, SUNDAY -> System.out.println("Weekend");
+            default -> System.out.println("you entered the wrong value");
         }
 
     }
